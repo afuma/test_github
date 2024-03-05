@@ -21,12 +21,26 @@ git add .
 git status
 git diff
 git commit -m "explication"
-git log
-git log -n2
+git log: journal de log de tous les commits
+git log -n2: affiche uniquement les deux derniers commits
 git push -u origin master
 git push -f origin master
 git restore
 git pull
+git reset --hard (sha du git log)
+
+si j'utilise la commande: git add .
+puis que je me rend compte que je ne voulais pas l'ajouter dans le staging
+alors: git reset
+si git add . puis git commit -m "update"
+et que l'on veut revenir en arriere: git reset HEAD~1
+
+git branch (voir les banches du repot)
+git checkout -b (nom de la nouvelle branche)
+git merge (nom de la branche != master) (les fusionne localement)
+git push -u origin (nom de la branche != master) (fait une demande de pull request 
+    sur la branche principale)
+git branch -d (nom de la branche != master) (supprime la branche)
 
 ----------------------------------------------------------------------------------
 

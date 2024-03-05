@@ -1,0 +1,14 @@
+
+- revoir le makefile (chemin absolue de leila)
+- integrer la norme et le testeur dans ma branche
+
+- bien separer les fonctionnalité (ft_init_game)
+  - initialisation != checker
+- utiliser le moins possible readline (leak) et gnl
+autant parcourir la map et s'arreter quand un \n est trouver
+- optimiser la fonction: ft_check_map_extension
+- bien mettre des booleens
+
+point positif:
+main parfait !
+decoupage en petite fonction: tres bien !
