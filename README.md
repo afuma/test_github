@@ -41,7 +41,7 @@ git merge (nom de la branche != master) (les fusionne localement)
 git push -u origin (nom de la branche != master) (fait une demande de pull request 
     sur la branche principale)
 git branch -d (nom de la branche != master) (supprime la branche)
-
+git merge --continue (forcer le commit depuis le depot local vers le remote)
 ----------------------------------------------------------------------------------
 
 Ignorer des fichiers avec Git:
